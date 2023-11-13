@@ -27,6 +27,11 @@ const PopulerMenu = () => {
           <PopulerMenuCard key={menu._id} menu={menu}></PopulerMenuCard>
         ))}
       </div>
+      <div className="flex justify-center py-5">
+        <button className="btn btn-outline border-0 border-b-4">
+          Read More
+        </button>
+      </div>
     </section>
   );
 };
