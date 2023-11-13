@@ -1,16 +1,13 @@
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
+import PopulerMenu from "../PopulerMenu/PopulerMenu";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <SectionTitle
-        heading={"Online Order"}
-        subheading={"From 10.00am to 11.00pm"}
-      ></SectionTitle>
       <Category></Category>
+      <PopulerMenu></PopulerMenu>
     </div>
   );
 };
